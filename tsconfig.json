@@ -10,5 +10,12 @@
 		"rootDir": "./",
 		"noImplicitAny": true,
 		"esModuleInterop": true
-	}
+	},
+	"include": [
+		"./*.js",
+		"./*.ts",           // Include .ts files in the root
+		"src/**/*.ts",
+		"test/**/*.ts",
+		"lambda.ts"
+	  ]
 }
